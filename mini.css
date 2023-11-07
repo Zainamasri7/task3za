@@ -1,0 +1,47 @@
+/*public style*/
+*{margin:0 ;
+padding: 0;
+box-sizing: border-box;
+}
+.clr{clear: both;
+}
+.containar{
+    width: 80%;
+    margin:auto ;
+    ;
+}
+/*navbar*/
+.navbar{background-color: black;}
+.logo {float: left;
+;
+margin-top: 5px;}
+
+.logo img{
+    width: 50%;
+}
+.navbar .list{float: right;
+    margin-top: 10px;
+}
+
+.list ul{
+     list-style-type:none;
+     
+}
+.list ul li{float: left;}
+.list a{color:white;
+margin-right :15px ;}
+
+.Portfolio{
+    background-color: beige;
+    text-align: center;
+}
+.Portfolio-item{
+    float:left ;
+    width:33.20%;
+padding-right: 40px;
+}
+
+.Portfolio img{
+    display: block;
+width: 100%;
+}
